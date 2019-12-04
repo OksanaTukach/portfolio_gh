@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <img src="assets/image/photo-circle.png" alt="photo">
+        <div class="header__info"><span>Oksana Tukach</span> <br>
+        <a href="https://github.com/OksanaTukach"><span>My Github account</span></a></div>
+        </div>  
+    </header>
+  <div class="education">
+      <div class="education__head"><span></span>Education</span>  
+      <button class="education__button-down" id="button-down" type="button"> &#8659; </button>
+      <button class="education__button-up" id="button-up" type="button"> &#8657; </button>
+      </div>
+      <div class="education__list">
+          <div class="school"><span>School №47 of Gomel</span><p>2001 - 2013 years</p></div>
+          <div class="university"><span>Francisk Skorina Gomel State University</span><p>Geologist</p> <p>2013-2017 years</p></div>
+          <div class="andersen"><span>Andersen Courses</span><p>JavaScript Course</p><p>July 2019-September 2019</p></div>
+          <div class="rsschool"><span>RSSchool Courses</span><p>Javascript / Frontend course</p><p>September 2019 - Until now</p></div>
+      </div>
+  </div>
+    <div class="projects__head">Projects</div> 
+  <div class="carousel">
+    <div class="items-container">
+      <div class="item active">
+        <div class="description">  
+          <div class="show">Show desc <button class="btn-show" id="btn-show_one" type="button">&#9898;</button> <button class="btn-del" id="btn-del_one" type="button">&#9898;</button> </div>
+          <div class="project-name" id="project-name_one">
+              <span>Theyalow</span>
+              <ul>
+                  <li>Mobile and desktop design</li>
+                  <li>Interactive buttons</li>
+                  <li>Work with Photopea</li>
+                  <li>Work with PerfectPixel</li>
+              </ul>
+              <div class="click">
+                  Click on image to see the project &#8658;
+              </div>
+          </div>
+          <div class="mobile-image"><a href="projects/theyalow/iframe.html" class="project-img" id="project-img_one"><img class="project-image" src="assets/image/theyalow-desktop.PNG" alt="project"> </a>  </div> 
+        </div>
+      </div>
+      <div class="item">
+        <div class="description">  
+          <div class="show">Show desc <button class="btn-show" id="btn-show_two" type="button">&#9898;</button> <button class="btn-del" id="btn-del_two" type="button">&#9898;</button> </div>
+          <div class="project-name" id="project-name_two">
+              <span>Repair design</span>
+              <ul>
+                  <li>Responsive design</li>
+                  <li>Interactive buttons</li>
+                  <li>Work with Figma</li>
+                  <li>Work with CSS preprocessor</li>
+              </ul>
+              <div class="click">
+                  Click on image to see the project &#8658;
+              </div>
+          </div>
+          <div class="mobile-image"><a href="projects/repair-design-project/iframe.html" class="project-img" id="project-img_two"><img class="project-image" src="assets/image/repair-design-desktop.PNG" alt="project"> </a></div>
+        </div>
+      </div>
+      <div class="text">Swipe to see other</div>
+    </div>
+    <div class="control left">
+      <div class="arrow left">&lt;</div>
+    </div>
+    <div class="control right">
+      <div class="arrow right">&gt;</div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
